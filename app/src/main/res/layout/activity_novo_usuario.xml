@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".NovoUsuarioActivity">
+
+    <EditText
+        android:id="@+id/loginNovoUsuarioEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="@string/dica_login"
+        android:background="@color/colorInput"
+        android:elevation="4dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/senhaNovoUsuarioEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="@string/dica_senha"
+        android:inputType="textPassword"
+        android:background="@color/colorInput"
+        android:elevation="4dp"/>
+    <Button
+        android:onClick="criarNovoUsuario"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        android:background="@android:color/white"/>
+
+
+</LinearLayout>

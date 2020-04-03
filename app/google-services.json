@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "444953677203",
+    "firebase_url": "https://chat-com-firebase-42c7d.firebaseio.com",
+    "project_id": "chat-com-firebase-42c7d",
+    "storage_bucket": "chat-com-firebase-42c7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444953677203:android:e32d710616e9de2f546c66",
+        "android_client_info": {
+          "package_name": "com.bobfatec.chatcomfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444953677203-hf3s2vq840fbm53mtmdbr3vkifdmgar4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG4NHbRAdSutJd7XqapB6T_dpIHGKDx64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444953677203-hf3s2vq840fbm53mtmdbr3vkifdmgar4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
